@@ -1,0 +1,23 @@
+{
+  "name": "cucumberjsbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^5.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KurisuLim/CucumberJS_Basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KurisuLim/CucumberJS_Basics/issues"
+  },
+  "homepage": "https://github.com/KurisuLim/CucumberJS_Basics#readme"
+}
