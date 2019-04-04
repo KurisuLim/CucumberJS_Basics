@@ -10,17 +10,17 @@ When('user validates the homepage title', function () {
   return console.log("@When --- user validates the homepage title");
 });
 
-Then('user entered valid username', function () {
+Then('user entered {string} username', function (string) {
 
-  return console.log("@Then --- user entered valid username");
+  return console.log("@Then --- user entered "+string+" username");
 });
 
-Then('user entered valid password', function () {
+Then('user entered {string} password', function (string) {
 
-  return console.log("@Then --- user entered valid password");
+  return console.log("@Then --- user entered "+string+" password");
 });
 
-Then('user should be successfully logged In', function () {
+Then('user should {string} successfully logged In', function (string) {
 
-  return console.log("@Then --- user should be successfully logged In");
+  return console.log("@Then --- user should "+string+" successfully logged In");
 });
