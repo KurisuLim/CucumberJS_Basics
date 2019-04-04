@@ -7,12 +7,12 @@ Background:
     Given user navigates to facebook website
     When user validates the homepage title
 
-Scenario: In order to verify login to facebook as Valid User
-    Then user entered "valid" username
-    Then user entered "valid" password
-    Then user should "be" successfully logged In
+Scenario Outline: In order to verify login to facebook as Valid User
+    Then user entered "<username>" username
+    Then user entered "<password>" password
+    Then user should "<loginstatus>" successfully logged In
 
- Scenario: In order to verify login to facebook as Invalid User
-    Then user entered "invalid" username
-    Then user entered "invalid" password
-    Then user should "not" successfully logged In
+Examples:
+| username | password | loginstatus|
+| valid    | valid    | be         |
+| invalid  | invalid  | not        |
